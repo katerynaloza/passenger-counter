@@ -4,19 +4,21 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div>
-            <h1>People entered:</h1>
+        <div class="container">
+            <div>
+                <h1>People entered:</h1>
+            </div>
+            <div>
+                <h2 id="count-el">0</h2>
+            </div>
+            <div class="buttons">
+                <button class="whitebtn" id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button class="greenbtn"  id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <div>
+                <p id="save-el">Previous entires:</p>
+            </div>
+            <script src="counter.js"></script>
         </div>
-        <div>
-            <h2 id="count-el">0</h2>
-        </div>
-        <div class="buttons">
-            <button class="whitebtn" id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button class="greenbtn"  id="save-btn" onclick="save()">SAVE</button>
-        </div>
-        <div>
-            <p id="save-el">Previous entires:</p>
-        </div>
-        <script src="counter.js"></script>
-    </body>
+        </body>
 </html>
