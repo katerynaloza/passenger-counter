@@ -1,10 +1,22 @@
 body {
-    background-color: brown;
-    background-size: cover;
+    background-image: url(crowd-people-walking-train.avif);
+    background-size: cover ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    
+}
+
 
 h1 {
     margin-top: 10px;
@@ -24,7 +36,7 @@ button {
     border-radius: 3px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: rgb(104, 14, 156);
+    color: rgb(239, 245, 239);
     font-weight: bold;
     width: 200px;
 }
@@ -32,15 +44,19 @@ button {
 .buttons {
     display: grid;
     place-items: center;
-    height: 15vh;
+    height: 10vh;
 }
 
 .whitebtn {
     margin-bottom: 3px;
-    background: white;
+    background: rgb(158, 48, 221);
 
 }
 
 .greenbtn {
         background: green;
+}
+
+#save-el {
+    font-weight: bold;
 }
